@@ -1,0 +1,51 @@
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 2rem;
+    padding: 4rem;
+}
+
+.imagenes img {
+    width: 300px;
+    border-radius: 3%;
+}
+
+.img-principal img {
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar {
+    background-color: $color-Nav;
+    ul {
+        text-decoration: none;
+        margin: 0;
+        padding: 0.5rem;
+        text-align: center;
+        li {
+            display: inline-block;
+            padding-right: 2em;
+            font-size: medium;
+            a {
+                display: block;
+                padding: 0.1rem;
+                transition: all 0.3s linear;
+                border-radius: 2px;
+                &:hover {
+                    background: $fondo-navbar;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

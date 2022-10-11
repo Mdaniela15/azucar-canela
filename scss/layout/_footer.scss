@@ -1,0 +1,13 @@
+footer {
+    bottom: 0%;
+    width: 100%;
+    @include display-flex(none, space-around, center);
+    p {
+        font-size: 16px;
+        margin: 1%;
+    }
+}
+
+
+
+

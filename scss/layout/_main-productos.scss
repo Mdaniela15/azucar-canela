@@ -1,0 +1,28 @@
+.productos {
+    width: 400px;
+    height: 400px;
+    margin: 1rem;
+    padding: 0;
+}
+
+
+.lista-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.producto {
+    max-width: 400px;
+    width: 80%;
+    min-width: 100px;
+    padding: 0.5em;
+    margin: 1em auto;
+    img {
+        margin-top: 0.5em;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+}
