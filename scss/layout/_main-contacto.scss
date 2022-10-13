@@ -1,6 +1,5 @@
 fieldset {
-    display: flex;
-    flex-direction: column;
+    @include display-flex(column,none, none);
     border: 2em;
     margin: 2em;
     label {
