@@ -197,10 +197,8 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   align-items: none;
-  border: 2em;
-  padding: 20rem;
-  padding-top: 0%;
-  padding-bottom: 0; }
+  margin: 100px;
+  border: 2em; }
   fieldset label {
     font-weight: 300;
     padding: 3px; }
@@ -210,6 +208,7 @@ fieldset {
     padding: 5px 0;
     padding: 0.5rem; }
   fieldset button {
+    margin: 10px;
     padding: 10px;
     background-image: linear-gradient(to right, rgba(173, 216, 230, 0.844), #404794e5);
     border-radius: 0.5em;
