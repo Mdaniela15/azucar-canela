@@ -1,10 +1,13 @@
 fieldset {
-    @include display-flex(column,none, none);
+    @include display-flex(column,center, none);
     border: 2em;
-    margin: 2em;
+    padding: 20rem;
+    padding-top: 0%;
+    padding-bottom: 0;
+
     label {
         font-weight: 300;
-        padding: 5px;
+        padding: 3px;
     }
     .form-input {
         display: inline-flex;
